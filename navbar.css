@@ -1,0 +1,39 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+/* Navbar Links */
+.navbar-nav a {
+  color: palevioletred;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+/* Navbar Buttons */
+.navbar-buttons button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #666;
+  color: rgb(177, 72, 151);
+  border-radius: 5px;
+}
+
+/* Dark Mode */
+#darkMode {
+  background-color: rgba(81, 6, 52, 0.945);
+  color: rgb(226, 174, 218);
+}
+
+/* Light Mode */
+#lightMode {
+  background-color: white;
+  color: rgb(136, 189, 204);
+}

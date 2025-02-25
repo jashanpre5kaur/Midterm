@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jashanpreet Kaur</title>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-nav">
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+            >HTML5</a
+          >
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            >JavaScript</a
+          >
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+        </div>
+        <div class="navbar-buttons">
+          <button data-bs-theme-value="dark" id="darkMode">Dark</button>
+          <button data-bs-theme-value="light" id="lightMode">Light</button>
+          <button id="contactMe">Contact Me</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <div class="container">
+        <!-- First Row -->
+        <div class="row">
+          <div class="col-md-4">
+            <p>Enter a number to calculate its factorial:</p>
+          </div>
+          <div class="col-md-8">
+            <input
+              type="number"
+              id="numberInput"
+              placeholder="Enter a number"
+            />
+          </div>
+        </div>
+        <!-- Second Row -->
+        <div class="row">
+          <div class="col-md-4">
+            <button id="calculateButton" class="btn">Enter</button>
+          </div>
+          <div class="col-md-8">
+            <div id="resultScreen">Result will be displayed here</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/darktoggle.js"></script>
+  </body>
+</html>

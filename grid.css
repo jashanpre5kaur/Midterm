@@ -1,0 +1,66 @@
+/* Apply a dark background to match the reference */
+body {
+  background-color: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Container layout */
+.container {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+/* Row Styling */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Column Sizes */
+.col-md-4 {
+  width: 30%;
+  text-align: right;
+}
+
+.col-md-8 {
+  width: 65%;
+}
+
+/* Input Box */
+input {
+  width: 100%;
+  font-size: 2rem;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+/* Enter Button */
+.btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Factorial Result Screen */
+#resultScreen {
+  width: 100%;
+  min-height: 50px;
+  background-color: #332703;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
